@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://blog.donglf681.com/sitemap.xml
