@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>15 - 不想敲代码的程序猿</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="DongGe" /><meta name="description" content="[TOC] deepin v20 必装软件可以参考 https://xmuli.tech/posts/db5a13a5/ 修改磁盘卷标 1 2 3 sudo umount /dev/sda5 sudo ntfslabel /dev/sda5 D docker 安装 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 sudo apt-get update sudo apt-get remove docker docker-engine docker.io sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 lsb-release" /><meta name="keywords" content="DongGe, php, golang" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.83.1 with theme even" />
+
+
+<link rel="canonical" href="https://blog.donglf681.com/deepin/15.11%E5%BC%80%E5%8F%91%E6%9C%BA%E7%8E%AF%E5%A2%83/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="15" />
+<meta property="og:description" content="[TOC] deepin v20 必装软件可以参考 https://xmuli.tech/posts/db5a13a5/ 修改磁盘卷标 1 2 3 sudo umount /dev/sda5 sudo ntfslabel /dev/sda5 D docker 安装 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 sudo apt-get update sudo apt-get remove docker docker-engine docker.io sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 lsb-release" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.donglf681.com/deepin/15.11%E5%BC%80%E5%8F%91%E6%9C%BA%E7%8E%AF%E5%A2%83/" /><meta property="article:section" content="deepin" />
+<meta property="article:published_time" content="2021-05-10T10:24:00&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-10T10:24:00&#43;08:00" />
+
+<meta itemprop="name" content="15">
+<meta itemprop="description" content="[TOC] deepin v20 必装软件可以参考 https://xmuli.tech/posts/db5a13a5/ 修改磁盘卷标 1 2 3 sudo umount /dev/sda5 sudo ntfslabel /dev/sda5 D docker 安装 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 sudo apt-get update sudo apt-get remove docker docker-engine docker.io sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 lsb-release"><meta itemprop="datePublished" content="2021-05-10T10:24:00&#43;08:00" />
+<meta itemprop="dateModified" content="2021-05-10T10:24:00&#43;08:00" />
+<meta itemprop="wordCount" content="2492">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="15"/>
+<meta name="twitter:description" content="[TOC] deepin v20 必装软件可以参考 https://xmuli.tech/posts/db5a13a5/ 修改磁盘卷标 1 2 3 sudo umount /dev/sda5 sudo ntfslabel /dev/sda5 D docker 安装 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 sudo apt-get update sudo apt-get remove docker docker-engine docker.io sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 lsb-release"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">DongGe</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/golang/">
+        <li class="mobile-menu-item">Go语言</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/git/">
+        <li class="mobile-menu-item">Git</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">DongGe</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/golang/">Go语言</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/git/">Git</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+  <div class="post-content">
+    <p>[TOC]</p>
+<blockquote>
+<p>deepin v20 必装软件可以参考 <a href="https://xmuli.tech/posts/db5a13a5/">https://xmuli.tech/posts/db5a13a5/</a></p>
+</blockquote>
+<h1 id="修改磁盘卷标">修改磁盘卷标</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo umount /dev/sda5
+sudo ntfslabel /dev/sda5 D
+
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="docker-安装">docker 安装</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo apt-get update
+
+sudo apt-get remove docker docker-engine docker.io
+
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 lsb-release software-properties-common
+
+curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg | sudo apt-key add -
+
+sudo vi /etc/apt/sources.list
+
+sudo apt-get update
+
+sudo apt-get install docker-ce
+
+#用户组设置
+sudo gpasswd -a ${USER} docker
+sudo groupadd docker
+
+sudo usermod -aG docker $USER
+
+newgrp docker #更新用户组
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="设置国内镜像源">设置国内镜像源</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">touch /etc/docker/daemon.json
+
+{
+  &#34;registry-mirrors&#34;: [
+    &#34;https://dockerhub.azk8s.cn&#34;,
+    &#34;https://hub-mirror.c.163.com&#34;
+  ]
+}
+
+Docker中国区官方镜像
+https://registry.docker-cn.com
+
+网易
+http://hub-mirror.c.163.com
+
+ustc
+https://docker.mirrors.ustc.edu.cn
+
+中国科技大学
+https://docker.mirrors.ustc.edu.cn
+
+阿里云容器 服务
+https://cr.console.aliyun.com/
+
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo systemctl daemon-reload
+sudo systemctl restart docker
+sudo systemctl enable docker
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>参考： <a href="https://yeasy.gitbooks.io/docker_practice/content/install/debian.html">https://yeasy.gitbooks.io/docker_practice/content/install/debian.html</a></li>
+</ul>
+<h1 id="docker-composer-安装">docker-composer 安装</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo curl -L &#34;https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)&#34; -o /usr/local/bin/docker-compose
+
+--- 获取去 https://github.com/docker/compose/releases 下载最新版本 docker-compose-Linux-x86_64 然后执行 `sudo mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose`
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>参考：https://docs.docker.com/compose/install/</li>
+</ul>
+<blockquote>
+<p><strong>国内高速下载</strong>：http://get.daocloud.io/</p>
+</blockquote>
+<h1 id="phpstorm-安装">phpstorm 安装</h1>
+<ul>
+<li><a href="https://www.jetbrains.com/phpstorm/download/download-thanks.html?platform=linux">下载地址</a></li>
+<li><a href="https://www.cnblogs.com/Dong-Ge/articles/11248689.html">安装步骤</a></li>
+<li>破解包 <a href="http://note.youdao.com/s/CriOwGrx">http://note.youdao.com/s/CriOwGrx</a></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">1、File-&gt;Setting-&gt;Plugins-&gt;安装 laravel 以及 laravel Snippets
+2、File-&gt;Setting-&gt;Languages &amp; Frameworks-&gt;PHP-&gt;Laravel-&gt;勾选 Enable Plugin for this project
+3、File-&gt;Setting-&gt;Languages &amp; Frameworks-&gt;PHP-&gt;Laravel-&gt;勾选 Use AutoPopup for completion(usee at own risk eg together with Symfony2)
+4、File-&gt;Setting-&gt;Editor-&gt;Code Style-&gt;General 的 Line Separator -&gt; 勾选 &#34;Unix and macOS(\n)&#34;
+4、File-&gt;Setting-&gt;Editor-&gt;Code Style-&gt;PHP-&gt; 勾选 Keep indents on empty lines
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>php class File Header</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">/**
+ * 
+ * @author ${USER} &lt;donglf@88.com&gt;
+ * @version ${DATE} ${TIME}
+ * @copyright ${DATE} www.quanyaotong.com
+ * @link https://gitee.com/wsqyt/quanyaotong
+ */
+</code></pre></td></tr></table>
+</div>
+</div><p>最后参考 - (<a href="https://shimo.im/docs/eavXX1p7YiQMv9oS/read)%5Bhttps://shimo.im/docs/eavXX1p7YiQMv9oS/read%5D">https://shimo.im/docs/eavXX1p7YiQMv9oS/read)[https://shimo.im/docs/eavXX1p7YiQMv9oS/read]</a></p>
+<h1 id="homestead-安装">homestead 安装</h1>
+<ul>
+<li><a href="https://code.felinae98.cn/linux/deepin%E4%B8%8B%E7%9A%84homestead%E5%AE%89%E8%A3%85/">https://code.felinae98.cn/linux/deepin%E4%B8%8B%E7%9A%84homestead%E5%AE%89%E8%A3%85/</a></li>
+<li><a href="https://app.vagrantup.com/laravel/boxes/homestead/versions/9.3.0">https://app.vagrantup.com/laravel/boxes/homestead/versions/9.3.0</a></li>
+<li><a href="https://www.virtualbox.org/wiki/Linux_Downloads">https://www.virtualbox.org/wiki/Linux_Downloads</a></li>
+</ul>
+<h1 id="composer-docker镜像制作">composer docker镜像制作</h1>
+<ul>
+<li>
+<p>下载最新稳定版 <a href="https://getcomposer.org/download/1.10.1/composer.phar">composer.phar</a></p>
+</li>
+<li>
+<p>再制作镜像， Dockfile</p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">FROM donglf681/php:7.2-cli-alpine3.11
+
+LABEL maintainer=&#34;donglifan &lt;dongggefor2018@163.com&gt;&#34;
+
+# repositorie mirror、timezone
+RUN sed -i &#39;s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/&#39; /etc/apk/repositories ; \
+    apk add --no-cache --virtual .timezone-deps tzdata; \
+    ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime ; \
+    echo &#39;Asia/Shanghai&#39; &gt; /etc/timezone; \
+    rm -rf /var/cache/apk/* /tmp/* /var/tmp/* /var/lib/apt/lists/*
+
+ENV COMPOSER_REPO_PACKAGIST &#34;https://mirrors.aliyun.com/composer/&#34;
+ENV COMPOSER_ALLOW_SUPERUSER 1
+ENV COMPOSER_HOME /tmp
+ENV COMPOSER_VERSION 1.10.1
+
+RUN set -ex ; \
+	apk add --no-cache --virtual .build-deps \
+	    $PHPIZE_DEPS \
+	    bzip2-dev; \
+	docker-php-ext-install bz2; \
+	runDeps=&#34;$( \
+		scanelf --needed --nobanner --format &#39;%n#p&#39; --recursive /usr/local/lib/php/extensions \
+			| tr &#39;,&#39; &#39;\n&#39; \
+			| sort -u \
+			| awk &#39;system(&#34;[ -e /usr/local/lib/&#34; $1 &#34; ]&#34;) == 0 { next } { print &#34;so:&#34; $1 }&#39; \
+	)&#34;; \
+	apk add --virtual .qyt-phpexts-rundeps $runDeps; \
+	apk del .build-deps; \
+	rm -rf /var/cache/apk/* /tmp/* /var/tmp/* /var/lib/apt/lists/* /var/www/html
+
+COPY composer.phar /tmp/
+
+# Composer
+RUN mv /tmp/composer.phar /usr/local/bin/composer \
+	&amp;&amp; chmod +x /usr/local/bin/composer \
+    &amp;&amp; composer self-update --clean-backups \
+	&amp;&amp; composer --ansi --version --no-interaction \
+    &amp;&amp; composer config -g repo.packagist composer ${COMPOSER_REPO_PACKAGIST}
+
+WORKDIR /app
+
+ENTRYPOINT [&#34;composer&#34;]
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>然后复制以下命令，存成可执行文件</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
+</span><span class="cp"></span>    <span class="nv">tty</span><span class="o">=</span>
+    tty -s <span class="o">&amp;&amp;</span> <span class="nv">tty</span><span class="o">=</span>--tty
+    docker run <span class="se">\
+</span><span class="se"></span>        <span class="nv">$tty</span> <span class="se">\
+</span><span class="se"></span>        --interactive <span class="se">\
+</span><span class="se"></span>        --rm <span class="se">\
+</span><span class="se"></span>        --net<span class="o">=</span>host <span class="se">\
+</span><span class="se"></span>        --user <span class="k">$(</span>id -u<span class="k">)</span>:<span class="k">$(</span>id -g<span class="k">)</span> <span class="se">\
+</span><span class="se"></span>        --volume /etc/passwd:/etc/passwd:ro <span class="se">\
+</span><span class="se"></span>        --volume /etc/group:/etc/group:ro <span class="se">\
+</span><span class="se"></span>        --volume /tmp:/tmp <span class="se">\
+</span><span class="se"></span>        --volume <span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>:/app <span class="se">\
+</span><span class="se"></span>        trrtly/composer:1.9.3 <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>复制到/usr/local/bin/</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo cp composer /usr/local/bin/composer
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>composer源</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">composer config -gl
+
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
+
+composer config -g repo.packagist composer https://mirrors.aliyun.com/composer
+# 安装phpcs
+composer global require &#34;squizlabs/php_codesniffer=*&#34;
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="phpcs-制作">phpcs 制作</h1>
+<ul>
+<li>Dockerfile</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">FROM php:7.2-cli-alpine3.11
+
+LABEL maintainer=&#34;donglifan &lt;donggefor2018@163.com&gt;&#34;
+
+ARG PHPCS_VERSION=3.3.2
+
+# repositorie mirror、timezone
+RUN sed -i &#39;s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/&#39; /etc/apk/repositories ; \
+    apk add --no-cache --virtual .timezone-deps tzdata; \
+    ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime ; \
+    echo &#39;Asia/Shanghai&#39; &gt; /etc/timezone; \
+    rm -rf /var/cache/apk/* /tmp/* /var/tmp/* /var/lib/apt/lists/*
+
+RUN curl -L https://github.com/squizlabs/PHP_CodeSniffer/releases/download/$PHPCS_VERSION/phpcs.phar &gt; /usr/local/bin/phpcs \
+    &amp;&amp; chmod +x /usr/local/bin/phpcs \
+    &amp;&amp; rm -rf /var/cache/apk/* /var/tmp/* /tmp/*
+
+WORKDIR /tmp
+
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>docker build -t phpcs .</li>
+<li>创建 phpcs.sh</li>
+<li>使用docker compose 启动容器 phpcs, ==默认情况下容器已有<code>/var/www</code>目录, 如需要自定义需要挂载工作区目录==(我本地使用)</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
+</span><span class="cp"></span>docker <span class="nb">exec</span> -i phpcs phpcs <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>拷贝到/usr/local/bin/phpcs</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo cp php.sh /usr/local/bin/phpcs
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="安装-postman">安装 Postman</h1>
+<ul>
+<li><a href="https://dl.pstmn.io/download/latest/linux64">下载地址</a></li>
+<li>安装步骤</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo tar -xzvf Postman-linux-x64-7.30.1.tar.gz
+sudo mv Postman /opt/
+sudo ln -s /opt/Postman/Postman /usr/local/bin/postman
+
+cd /usr/share/applications
+
+sudo vim Postman.desktop
+
+[Desktop Entry]
+Type=Application
+Comment=postman
+Name=Postman
+Icon=postman
+Exec=/opt/Postman//Postman
+Terminal=false
+Categories=Application;IDE;
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="virtualbox-安装-win7-虚拟机">virtualbox 安装 win7 虚拟机</h1>
+<ul>
+<li>安装 virtualbox, 最新 Debian 9 的 deb 包 <a href="https://download.virtualbox.org/virtualbox/6.0.18/virtualbox-6.0_6.0.18-136238~Debian~stretch_amd64.deb">下载地址</a></li>
+<li>下载带有 PE 功能的 win7 iso 镜像</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo dpkg -i virtualbox-6.0_6.0.18-136238~Debian~stretch_amd64.deb
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>安装 win7 虚拟机,创建虚拟机，都按默认来创建，步骤如下</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">1、系统-》主板-》启动顺序-》只选择光驱和硬盘，光驱在上，硬盘在下；
+2、存储-》选择 iso 镜像
+3、设置共享文件夹
+4、启动进入 PE 系统，先格式化分区，再恢复系统到C盘
+5、安装系统
+5、结束
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="deepin-1511-tim-图片无法显示">deepin 15.11 Tim 图片无法显示</h1>
+<ul>
+<li>原因是腾讯更新版本，默认请求图片到 ipv6,需要关闭 ipv6</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+
+sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1
+
+ifconfig
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="virtualbox-6018-安装-extension-pack-扩展包">virtualbox 6.0.18 安装 Extension Pack 扩展包</h1>
+<ul>
+<li><a href="https://www.virtualbox.org/wiki/Download_Old_Builds_6_0">对应版本下载</a>，<a href="https://download.virtualbox.org/virtualbox/6.0.18/Oracle_VM_VirtualBox_Extension_Pack-6.0.18.vbox-extpack">我的是</a></li>
+<li>打开全局设定——扩展，进行安装，如果安装过程出现与gksu-run-helper通信失败的错误，解决方法如下：</li>
+</ul>
+<blockquote>
+<p>终端输入：gksu-properties ，将 su 改为 sudo, 重新安装即可</p>
+</blockquote>
+<h1 id="deepin-1511-virtualbox-6018-安装-usb-20">deepin 15.11 VirtualBox 6.0.18 安装 usb 2.0</h1>
+<ul>
+<li>先安装 virtualBox Extension Pack  扩展包</li>
+<li>添加当前用户访问 vbox usb 权限</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ lsusb
+
+$ whoami
+
+$ sudo usermod -a -G vboxusers dongge
+
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>重启 deepin 系统 即可正常配置</li>
+</ul>
+<h1 id="deepin-1511-安装并破解-xmind-zen">deepin 15.11 安装并破解 XMind Zen</h1>
+<ul>
+<li><a href="https://www.ghpym.com/xmindzen.html">破解资源</a>，安装包可以去<a href="https://www.xmind.cn/download/">官网</a>下载</li>
+<li>安装</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo dpkg -i XMind-ZEN-for-Linux-amd-64bit-10.0.0-201911260056.deb
+
+sudo cp /media/dongge/D/XMind2020_10.1.1.202003312309_Patch_Linux/app.asar /opt/XMind ZEN/resources/
+#复制 app.asar 破解版到 /opt/XMind ZEN/resources/ 覆盖
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="谷歌浏览器插件下载安装">谷歌浏览器插件下载安装</h1>
+<ul>
+<li>
+<p><a href="https://crx4chrome.com/crx/149">地址</a></p>
+<ul>
+<li>crxMouse - 鼠标手势</li>
+<li>Axure RP Extension for Chrome - 原型图 - <a href="https://crx.dam.io/files/dogkpdfcklifaemcdfbildhcofnopogp/0.6.3.zip">zip压缩包下载链接</a></li>
+<li>AdBlock -广告拦截</li>
+<li>Yet another flags - ip地址</li>
+</ul>
+</li>
+</ul>
+<h1 id="teamviewer-显示未就绪请检查你的连接">teamviewer 显示“未就绪，请检查你的连接”</h1>
+<ul>
+<li>解决方法</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo teamviewer --daemon enable
+sudo systemctl start teamviewerd.service
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="惠普打印机安装">惠普打印机安装</h1>
+<ul>
+<li>打开打印设置软件，搜索网络打印机</li>
+</ul>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf493574ff500f44ffa3e092f47fa5656?method=getImage&amp;version=5728&amp;cstk=KRwPDi7E" alt="搜索网络打印机"></p>
+<p>==打印机需要勾选启用==</p>
+<ul>
+<li>打印测试页无法打印，需要安装 hp-plugin</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hp-plugin // 安装过程会有点慢，并需要 root 密码权限才可安装
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="go-get-时会提示错误-proxyconnect-tcp-eof"><code>go get</code> 时会提示错误 <code>proxyconnect tcp: EOF</code></h1>
+<blockquote>
+<p>本机已安装运行 Qv2ray 使用过系统代理，已配置 goproxy</p>
+</blockquote>
+<ul>
+<li>
+<p>尝试：</p>
+<ul>
+<li>使用 ==<code>go run main.go</code>== 发现会报 ==<code>go: github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751: Get https://goproxy.cn/github.com/alecthomas/template/@v/v0.0.0-20190718012654-fb15b899a751.mod: proxyconnect tcp: EOF</code>== 错误</li>
+<li>使用 ==<code>go get github.com/alecthomas/template</code>== 报 ==<code>go get github.com/alecthomas/template: module github.com/alecthomas/template: Get https://goproxy.cn/github.com/alecthomas/template/@v/list: proxyconnect tcp: dial tcp 127.0.0.1:8888: connect: connection refused</code>== 错误</li>
+<li><code>curl https://github.com</code> 报 <code>curl: (7) Failed to connect to localhost port 8888: 拒绝连接</code> 错误</li>
+</ul>
+</li>
+<li>
+<p>解决</p>
+<ul>
+<li>
+<p>查看本机 8888 端口是否占用 <code>lsof -i:8888</code> 发现被占用</p>
+</li>
+<li>
+<p>查看 env <code>env|grep -i proxy</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">https_proxy=https://localhost:8888
+http_proxy=http://localhost:8888
+no_proxy=localhost,127.0.0.0/8,::1
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">unset http_proxy
+或：
+unset https_proxy
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
+</ul>
+<h1 id="nodejs-和-npm-安装">nodejs 和 npm 安装</h1>
+<ul>
+<li>下载<a href="https://nodejs.org/dist/v12.16.3/node-v12.16.3-linux-x64.tar.xz">源码包</a></li>
+<li>安装步骤</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo tar -xvf node-v12.16.3-linux-x64.tar
+sudo mv node-v12.16.3-linux-x64 /opt/node/
+sudo chmod 777 /opt/node/
+sudo ln -s /opt/node/bin/node /usr/local/bin/
+node -v
+sudo ln -s /opt/node/bin/npm /usr/local/bin/
+npm -v
+#cnpm
+sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+sudo ln -s /opt/node/lib/node_modules/cnpm/bin/cnpm /usr/local/bin/
+cnpm -v
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="增加-swap-交换区">增加 swap 交换区</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">~/swapfile
+#查看是否有使用,如果没有输出就是没有使用
+$sudo swapon --show
+
+#查看内存使用情况
+$free -h -t -s 1
+
+#查看硬盘使用情况
+$df -h
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>添加交换区</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">mkdir swapfile
+cd swapfile
+sudo dd if=/dev/zero of=swap bs=1M count=16384
+sudo mkswap -f swap
+sudo swapon swap
+#关闭所有交换区
+sudo swapoff swap
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="安装最新版-navicat15">安装最新版 navicat15</h1>
+<ul>
+<li>下载地址 <a href="https://www.navicat.com/en/download/navicat-for-mysql">官方</a></li>
+<li>软件破解</li>
+</ul>
+<h1 id="安装-ohmyz">安装 ohmyz</h1>
+<ul>
+<li><a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH">https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH</a></li>
+<li>安装步骤</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo apt-get install zsh
+# gitee 源
+wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh
+
+
+# Default settings
+ZSH=${ZSH:-~/.oh-my-zsh}
+REPO=${REPO:-ohmyzsh/ohmyzsh}
+REMOTE=${REMOTE:-https://github.com/${REPO}.git}
+BRANCH=${BRANCH:-master}
+
+
+# 替换为
+REPO=${REPO:-ohmyzsh/ohmyzsh}
+REMOTE=${REMOTE:-https://github.com/${REPO}.git}
+
+# 赋予可执行权限
+chomd +x install.sh
+# 运行
+sh install.sh
+
+
+chsh -s /bin/zsh
+
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>安装过程中会提示是否将 zsh 做为你的默认 shell，确定即可，如果安装完毕默认的还是原生 shell，那么可以使用下面命令将 zsh 设置为默认 shell</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">chsh -s $(which zsh) #如无效则直接敲 chsh，然后根据提示配置
+
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>参考<a href="https://zc-cris.github.io/archives/7a98167e.html">https://zc-cris.github.io/archives/7a98167e.html</a></p>
+</blockquote>
+<ul>
+<li>phpstorm 使用 zsh: Settings-&gt;Tools-&gt;Terminal-&gt;Shell path-&gt;&quot;/usr/bin/zsh&quot;,重启后生效</li>
+</ul>
+<h1 id="上传本地文件到服务器">上传本地文件到服务器</h1>
+<ul>
+<li><a href="https://bbs.deepin.org/forum.php?mod=viewthread&amp;tid=144230">https://bbs.deepin.org/forum.php?mod=viewthread&amp;tid=144230</a></li>
+</ul>
+
+  </div>
+</article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:donglf@88.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/donglf681" class="iconfont icon-github" title="github"></a>
+  <a href="https://blog.donglf681.com/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>DongGe <a href="http://beian.miit.gov.cn" target="_blank" rel="noopener">闽ICP备2021002489号-1</a></span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

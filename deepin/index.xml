@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepins on 不想敲代码的程序猿</title>
+    <link>https://blog.donglf681.com/deepin/</link>
+    <description>Recent content in Deepins on 不想敲代码的程序猿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>DongGe &lt;a href=&#34;http://beian.miit.gov.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;闽ICP备2021002489号-1&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 10 May 2021 10:24:00 +0800</lastBuildDate><atom:link href="https://blog.donglf681.com/deepin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>15</title>
+      <link>https://blog.donglf681.com/deepin/15.11%E5%BC%80%E5%8F%91%E6%9C%BA%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Mon, 10 May 2021 10:24:00 +0800</pubDate>
+      
+      <guid>https://blog.donglf681.com/deepin/15.11%E5%BC%80%E5%8F%91%E6%9C%BA%E7%8E%AF%E5%A2%83/</guid>
+      <description>[TOC] deepin v20 必装软件可以参考 https://xmuli.tech/posts/db5a13a5/ 修改磁盘卷标 1 2 3 sudo umount /dev/sda5 sudo ntfslabel /dev/sda5 D docker 安装 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 sudo apt-get update sudo apt-get remove docker docker-engine docker.io sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 lsb-release</description>
+    </item>
+    
+  </channel>
+</rss>

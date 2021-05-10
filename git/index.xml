@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gits on 不想敲代码的程序猿</title>
+    <link>https://blog.donglf681.com/git/</link>
+    <description>Recent content in Gits on 不想敲代码的程序猿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>DongGe &lt;a href=&#34;http://beian.miit.gov.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;闽ICP备2021002489号-1&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 08 May 2021 14:38:51 +0800</lastBuildDate><atom:link href="https://blog.donglf681.com/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 命令</title>
+      <link>https://blog.donglf681.com/git/git/</link>
+      <pubDate>Sat, 08 May 2021 14:38:51 +0800</pubDate>
+      
+      <guid>https://blog.donglf681.com/git/git/</guid>
+      <description>设置全局账号 1 2 3 4 5 6 7 8 9 10 # 显示当前的Git配置 $ git config --list # 编辑Git配置文件 $ git config -e [--global] #设置提交代码时的用户信息 $ git config --global user.name &amp;#34;DongGe&amp;#34; $ git config --global user.email</description>
+    </item>
+    
+    <item>
+      <title>Git Commit 约定式规范</title>
+      <link>https://blog.donglf681.com/git/git-commit-%E7%BA%A6%E5%AE%9A%E5%BC%8F%E8%A7%84%E8%8C%83/</link>
+      <pubDate>Sat, 08 May 2021 14:21:08 +0800</pubDate>
+      
+      <guid>https://blog.donglf681.com/git/git-commit-%E7%BA%A6%E5%AE%9A%E5%BC%8F%E8%A7%84%E8%8C%83/</guid>
+      <description>git commit 消息格式规范 严格规范 git commit 消息填写格式，有助于提高项目历史信息的可读性。并且，git commit 消息将作为项目版本发布的 change log，在 ci 流程中使用「语</description>
+    </item>
+    
+  </channel>
+</rss>

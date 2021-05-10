@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golangs on 不想敲代码的程序猿</title>
+    <link>https://blog.donglf681.com/golang/</link>
+    <description>Recent content in Golangs on 不想敲代码的程序猿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>DongGe &lt;a href=&#34;http://beian.miit.gov.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;闽ICP备2021002489号-1&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 10 May 2021 10:11:35 +0800</lastBuildDate><atom:link href="https://blog.donglf681.com/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>golang GUI 桌面应用开发及编译(一)</title>
+      <link>https://blog.donglf681.com/golang/golang-gui-%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E7%BC%96%E8%AF%91%E4%B8%80/</link>
+      <pubDate>Mon, 10 May 2021 10:11:35 +0800</pubDate>
+      
+      <guid>https://blog.donglf681.com/golang/golang-gui-%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E7%BC%96%E8%AF%91%E4%B8%80/</guid>
+      <description>以下参考 https://www.jianshu.com/p/456f072f58af，编译过程多花了点时间 准备 deepin 15.11 golang 1.14.3 GTK+3.10 以上 andlabs/ui 1 2 3 4 5 6 7</description>
+    </item>
+    
+    <item>
+      <title>golang GUI 桌面应用开发及编译(二)</title>
+      <link>https://blog.donglf681.com/golang/golang-gui-%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E7%BC%96%E8%AF%91%E4%BA%8C/</link>
+      <pubDate>Mon, 10 May 2021 10:11:35 +0800</pubDate>
+      
+      <guid>https://blog.donglf681.com/golang/golang-gui-%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E7%BC%96%E8%AF%91%E4%BA%8C/</guid>
+      <description>环境 基于 上一篇 基础 代码事例 安装 1 go get github.com/lxn/walk 代码 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 package main import ( &amp;#34;github.com/lxn/walk&amp;#34; . &amp;#34;github.com/lxn/walk/declarative&amp;#34; &amp;#34;strings&amp;#34; ) func main() { var inTE, outTE *walk.TextEdit MainWindow{ Title:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.donglf681.com/posts/</loc>
+    <loc>https://blog.donglf681.com/deepin/15.11%E5%BC%80%E5%8F%91%E6%9C%BA%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2021-05-10T10:24:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/deepin/</loc>
+    <lastmod>2021-05-10T10:24:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/</loc>
+    <lastmod>2021-05-10T10:24:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/golang/golang-gui-%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E7%BC%96%E8%AF%91%E4%B8%80/</loc>
+    <lastmod>2021-05-10T10:11:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/golang/golang-gui-%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E7%BC%96%E8%AF%91%E4%BA%8C/</loc>
+    <lastmod>2021-05-10T10:11:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/golang/</loc>
+    <lastmod>2021-05-10T10:11:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/git/git/</loc>
+    <lastmod>2021-05-08T14:38:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/git/</loc>
+    <lastmod>2021-05-08T14:38:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/git/git-commit-%E7%BA%A6%E5%AE%9A%E5%BC%8F%E8%A7%84%E8%8C%83/</loc>
+    <lastmod>2021-05-08T14:21:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.donglf681.com/post/</loc>
     <lastmod>2021-05-08T10:32:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -16,12 +79,6 @@
   
   <url>
     <loc>https://blog.donglf681.com/tags/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.donglf681.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
