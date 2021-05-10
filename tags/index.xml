@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Even - A super concise theme for Hugo</title>
+    <title>Tags on 不想敲代码的程序猿</title>
     <link>https://blog.donglf681.com/tags/</link>
-    <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
+    <description>Recent content in Tags on 不想敲代码的程序猿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>DongGe</copyright><atom:link href="https://blog.donglf681.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>DongGe &lt;a href=&#34;http://beian.miit.gov.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;闽ICP备2021002489号-1&lt;/a&gt;</copyright><atom:link href="https://blog.donglf681.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

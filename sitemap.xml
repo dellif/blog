@@ -15,13 +15,13 @@
   </url>
   
   <url>
-    <loc>https://blog.donglf681.com/</loc>
+    <loc>https://blog.donglf681.com/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://blog.donglf681.com/tags/</loc>
+    <loc>https://blog.donglf681.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
